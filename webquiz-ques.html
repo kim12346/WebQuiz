@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./webquiz-ques.css">
+</head>
+<body>
+    <div class="modal2">
+        <div class="modal-inner2">
+            <h2><span id="WA"></span></h2>
+            <button class="close-modal">닫기x</button>
+        </div>
+    </div>
+    <header>
+        <button class="go-main"><a href="./index.html">Main</a></button>
+        <div class="set">
+            <button id="restart">Restart</button>
+            <button class="open-modal">check</button>
+        </div>
+    </header>
+    <div class="contents">
+        <div class="quiz">
+            <h3 id="question">Question text</h3>
+            <div class="choices">
+                <div>
+                    <button class="choice" id="a"></button>
+                    <button class="choice" id="b"></button>
+                </div>
+                <div>
+                    <button class="choice" id="c"></button>
+                    <button class="choice" id="d"></button>
+                </div>
+            </div>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Your score: <span id="score"></span></h2>
+            <h2>Correct rate: <span id="rate"></span></h2>
+    </div>
+</div>
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./code.js"></script>
+</body>
+</html>
